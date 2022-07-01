@@ -6,4 +6,36 @@
 .margen{
     margin-top: 50px;
     margin-right: 30px;
+    margin-bottom:10px;
+}
+
+.interior_padding{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    /* padding: arriba derecha abajo izquierda */
+    /* padding: 5px 10px 5px 10px; */
+    /* padding: arriba/abajo derecha/izquierda */
+    padding: 5px 10px;
+
+
+    /* border: 1px;
+    border-style: solid;
+    border-color: blue; */
+    border: 1px solid blue;
+
+    width: 50%;
+
+    background: #FF0000;
+
+    border-radius: 5px 20px;
+}
+
+.circulo{
+    width: 200px;
+    height: 200px;
+    background: blue;
+    color: white;
+    border-radius: 50%;
 }

@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;700&display=swap');
+
+.roboto{
+    font-family: 'Roboto', sans-serif;
+}
+
+.boton_naraja{
+    border-radius: 10px;
+    padding: 10px 20px;
+    background: #FE481C;
+    color: #FBFBFB;
+    font-size: 16px;
+}
+
+.boton_azul{
+    border-radius: 15px 0;
+    padding: 10px 20px;
+    font-size: 24px;
+    background: #5562FF;
+    color: #FFFFFF;
+}
+
+    .boton_azul:hover{
+        background: yellow;
+        cursor: pointer;
+    }
