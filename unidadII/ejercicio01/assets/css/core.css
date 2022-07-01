@@ -2,6 +2,6 @@
     color: white;
 }
 
-.colorCheckbox p{
-    color: yellow;
+.colorCheckbox .colorCheckbox2{
+    color: yellow !important;
 }
