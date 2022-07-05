@@ -1,0 +1,25 @@
+.wrapper_navbar{
+  display: flex;
+  width: 90%;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #000;
+}
+  .navbar_buttons{
+    display: flex;
+    align-items: center;
+  }
+
+#navigation{
+  list-style: none;
+}
+
+  #navigation li{
+    display: inline-block;
+    margin-right: 25px;
+  }
+
+.navbar_buttons button{
+  margin: 0 10px;
+}

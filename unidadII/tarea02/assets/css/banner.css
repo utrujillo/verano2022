@@ -1,0 +1,19 @@
+
+#banner{
+  display: grid;
+  grid-template-areas: "info photo"
+                       "skills photo";
+}
+  .info{
+    grid-area: info;
+    background: white;
+  }
+  .skills{
+    grid-area: skills;
+    background: #262626;
+  }
+  .photo{
+    grid-area: photo;
+    background: #DED1C1;
+    height: 700px;
+  }
