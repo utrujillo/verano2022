@@ -4,7 +4,8 @@
   margin: 0 auto;
   justify-content: space-between;
   align-items: center;
-  border: 1px solid #000;
+  border-bottom: 1px solid #DED1C1;
+  color: #262626;
 }
   .navbar_buttons{
     display: flex;

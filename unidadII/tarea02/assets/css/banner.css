@@ -8,6 +8,17 @@
     grid-area: info;
     background: white;
   }
+    .wrapper_info{
+      margin-left: 7%;
+      margin-top: 75px;
+    }
+    .tag_primary{
+      background: #5562FF;
+      height: 54px;
+      border-radius: 15px 0;
+      color: #FFF;
+      padding: 10px 20px;
+    }
   .skills{
     grid-area: skills;
     background: #262626;
