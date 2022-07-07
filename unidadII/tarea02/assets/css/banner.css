@@ -25,6 +25,23 @@
     grid-area: skills;
     background: #262626;
   }
+    .skills table td{
+      color: white;
+    }
+
+    .skills_grid{
+      margin-left: 7%;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      color: white;
+      column-gap: 20px;
+      row-gap: 10px;
+    }
+
+    .bar{
+      background: #FFD100;
+      height: 8px;
+    }
   .photo{
     position: relative;
     grid-area: photo;
