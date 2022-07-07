@@ -47,3 +47,13 @@
         top: 140px;
         right: 50px;
       }
+
+/* Media queries */
+@media screen and (max-width: 480px) {
+  #banner{
+    grid-template-columns: 1fr;
+    grid-template-areas: "info"
+                          "skills"
+                          "photo";
+  }
+}
