@@ -1,6 +1,8 @@
 
 #banner{
+  width: 100%;
   display: grid;
+  grid-template-columns: 65% 1fr;
   grid-template-areas: "info photo"
                        "skills photo";
 }
@@ -24,7 +26,24 @@
     background: #262626;
   }
   .photo{
+    position: relative;
     grid-area: photo;
     background: #DED1C1;
     height: 700px;
   }
+    .wrapper_image{
+      background: url(../images/photo.png) center bottom no-repeat;
+      width: 100%;
+      height: 100%;
+    }
+      .logo_python{
+        position: absolute;
+        top: 20px;
+        left: 25%;
+      }
+
+      .logo_react{
+        position: absolute;
+        top: 140px;
+        right: 50px;
+      }
