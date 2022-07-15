@@ -1,0 +1,33 @@
+.wrapper_navbar{
+  display: flex;
+  width: 90%;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #DED1C1;
+  color: #262626;
+}
+  .navbar_buttons{
+    display: flex;
+    align-items: center;
+  }
+
+#navigation{
+  list-style: none;
+}
+
+  #navigation li{
+    display: inline-block;
+    margin-right: 25px;
+  }
+
+.navbar_buttons button{
+  margin: 0 10px;
+}
+
+/* Media queries */
+@media screen and (max-width: 480px) {
+  .navbar_menu{
+    display: none;
+  }
+}
