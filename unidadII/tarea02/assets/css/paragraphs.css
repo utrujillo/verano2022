@@ -27,22 +27,27 @@
 .mt_15{ margin-top: 15px; }
 .mt_20{ margin-top: 20px; }
 .mt_25{ margin-top: 25px; }
+.mt_30{ margin-top: 30px; }
 .mr_5{ margin-right: 5px; }
 .mr_10{ margin-right: 10px; }
 .mr_15{ margin-right: 15px; }
 .mr_20{ margin-right: 20px; }
 .mr_25{ margin-right: 25px; }
+.mr_30{ margin-right: 30px; }
 .mb_5{ margin-bottom: 5px; }
 .mb_10{ margin-bottom: 10px; }
 .mb_15{ margin-bottom: 15px; }
 .mb_20{ margin-bottom: 20px; }
 .mb_25{ margin-bottom: 25px; }
+.mb_30{ margin-bottom: 30px; }
 .ml_5{ margin-left: 5px; }
 .ml_10{ margin-left: 10px; }
 .ml_15{ margin-left: 15px; }
 .ml_20{ margin-left: 20px; }
 .ml_25{ margin-left: 25px; }
-
+.ml_30{ margin-left: 30px; }
+.ml_35{ margin-left: 35px; }
+.ml_40{ margin-left: 40px; }
 
 /*
   Paddings

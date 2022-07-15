@@ -1,9 +1,9 @@
 .btn_primary,
-.btn_secondary{
+.btn_secondary,
+.btn_warning{
   border-radius: 10px;
   color: #FBFBFB;
   border: none;
-  height: 42px;
 }
 
 .btn_primary{
@@ -17,4 +17,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 42px;
+}
+
+.btn_warning{
+  padding: 10px 20px;
+  background: #FE481C;
 }

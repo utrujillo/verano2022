@@ -9,11 +9,9 @@
   .info{
     grid-area: info;
     background: white;
+    margin: 50px 0 25px 7%;
   }
-    .wrapper_info{
-      margin-left: 7%;
-      margin-top: 75px;
-    }
+    .wrapper_info{}
     .tag_primary{
       background: #5562FF;
       height: 54px;
@@ -21,21 +19,26 @@
       color: #FFF;
       padding: 10px 20px;
     }
+    .wrapper_buttons{
+      display: flex;
+    }
   .skills{
     grid-area: skills;
     background: #262626;
+    padding: 50px 0;
+    align-content: center;
   }
-    .skills table td{
-      color: white;
-    }
 
     .skills_grid{
-      margin-left: 7%;
+      margin: 0 7%;
       display: grid;
       grid-template-columns: 1fr 1fr;
       color: white;
       column-gap: 20px;
       row-gap: 10px;
+    }
+    .skills_grid div{
+      align-self: center;
     }
 
     .bar{
@@ -46,7 +49,6 @@
     position: relative;
     grid-area: photo;
     background: #DED1C1;
-    height: 700px;
   }
     .wrapper_image{
       background: url(../images/photo.png) center bottom no-repeat;

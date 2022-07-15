@@ -1,0 +1,13 @@
+.d_flex{ display: flex; }
+.justify_content__start{ justify-content: flex-start; }
+.justify_content__end{ justify-content: flex-end; }
+.justify_content__center{ justify-content: center; }
+.justify_content__evenly{ justify-content: space-evenly; }
+.justify_content__around{ justify-content: space-around; }
+.justify_content__between{ justify-content: space-between; }
+
+.align_items__start{ align-items: flex-start; }
+.align_items__end{ align-items: flex-end; }
+.align_items__center{ align-items: center; }
+
+.flex_wrap{ flex-wrap: wrap; }

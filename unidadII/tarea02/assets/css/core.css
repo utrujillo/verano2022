@@ -1,10 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&family=Poppins:wght@100;300;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;900&family=Poppins:wght@100;300;400;600&display=swap');
 @import 'navbar.css';
 @import 'banner.css';
 @import 'buttons.css';
 @import 'tipography.css';
 @import 'paragraphs.css';
+@import 'colors.css';
+@import 'flex.css';
 
 *{ margin: 0; padding: 0; }
 .roboto{ font-family: 'Roboto', sans-serif; }
