@@ -1,0 +1,26 @@
+.btn_primary,
+.btn_secondary,
+.btn_warning{
+  border-radius: 10px;
+  color: #FBFBFB;
+  border: none;
+}
+
+.btn_primary{
+  padding: 10px 20px;
+  background: #5562FF;
+}
+
+.btn_secondary{
+  padding: 10px 7px;
+  background: #FFD100;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 42px;
+}
+
+.btn_warning{
+  padding: 10px 20px;
+  background: #FE481C;
+}

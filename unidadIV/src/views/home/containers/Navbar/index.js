@@ -1,4 +1,5 @@
 import React from 'react'
+import CustomButton from '../../../../components/Form/CustomButton'
 import './navbar.css'
 
 const Navbar = () => {
@@ -16,10 +17,16 @@ const Navbar = () => {
         </ul>
       </div>
       <div class="navbar_buttons">
-        <button class="btn_primary opensans">Blog</button>
-        <button class="btn_secondary opensans">
-          <img src="assets/images/chat.png" alt="" />
-        </button>
+        <CustomButton
+          title='Vlog'
+          css_styles={{ btn_class: 'btn_primary' }}
+          handleClick={ () => alert('hola') }
+        />
+        <CustomButton
+          pathImg='assets/images/chat.png'
+          css_styles={{ btn_class: 'btn_secondary' }}
+          handleClick={ () => console.log('botonPresionado') }
+        />
       </div>
     </div>
   )
