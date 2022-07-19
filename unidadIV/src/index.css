@@ -1,3 +1,5 @@
+@import 'assets/css/paragraphs.css';
+@import 'assets/css/tipography.css';
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',

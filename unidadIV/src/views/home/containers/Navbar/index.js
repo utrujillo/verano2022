@@ -1,5 +1,6 @@
 import React from 'react'
 import CustomButton from '../../../../components/Form/CustomButton'
+import Text from '../../../../components/Text'
 import './navbar.css'
 
 const Navbar = () => {
@@ -10,10 +11,12 @@ const Navbar = () => {
       </div>
       <div class="navbar_menu opensans">
         <ul id="navigation">
-          <li>Inicio</li>
+          <li className='fs_48'>Inicio</li>
           <li>Habilidades</li>
           <li>Trabajo</li>
           <li>Estrategia</li>
+          <li><Text title='Soluciones' css_styles='fs_20 fw_bold' /></li>
+          <li><Text title='Hola' /></li>
         </ul>
       </div>
       <div class="navbar_buttons">

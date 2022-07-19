@@ -1,4 +1,5 @@
 import React from 'react'
+import Text from '../../Text'
 import classes from './CustomButton.module.css'
 
 const CustomButton = (props) => {
@@ -11,7 +12,7 @@ const CustomButton = (props) => {
       class={`${classes[btn_class]} opensans`}
       onClick={handleClick}
     >
-      { title && title }
+      { title && (<Text title={title} />) }
       { 
         pathImg &&
         <img src={pathImg} alt='' />
