@@ -1,0 +1,5 @@
+.photo{
+  position: relative;
+  grid-area: photo;
+  background: #DED1C1;
+}
