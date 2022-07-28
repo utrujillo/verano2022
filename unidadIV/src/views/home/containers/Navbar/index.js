@@ -3,7 +3,11 @@ import CustomButton from '../../../../components/Form/CustomButton'
 import Text from '../../../../components/Text'
 import './navbar.css'
 
-const Navbar = () => {
+const Navbar = (props) => {
+  
+  const { data } = props
+  console.log( data )
+
   return (
     <div class="wrapper_navbar">
       <div class="navbar_logo">
@@ -20,16 +24,20 @@ const Navbar = () => {
         </ul>
       </div>
       <div class="navbar_buttons">
-        <CustomButton
-          title='Vlog'
-          css_styles={{ btn_class: 'btn_primary' }}
-          handleClick={ () => alert('hola') }
-        />
-        <CustomButton
+        {
+          data?.button?.map( button => (
+            <CustomButton
+              title={button?.texto}
+              pathImg=''
+              css_styles={{ btn_class: 'btn_primary' }}
+            />
+          ) )
+        }
+        {/* <CustomButton
           pathImg='assets/images/chat.png'
           css_styles={{ btn_class: 'btn_secondary' }}
           handleClick={ () => console.log('botonPresionado') }
-        />
+        /> */}
       </div>
     </div>
   )
