@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_navbar_menus",
+  "info": {
+    "displayName": "menu"
+  },
+  "options": {},
+  "attributes": {
+    "texto": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    },
+    "icono": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

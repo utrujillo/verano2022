@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_navbar_botons",
+  "info": {
+    "displayName": "boton",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "texto": {
+      "type": "string"
+    },
+    "icono": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "url": {
+      "type": "string"
+    },
+    "css_styles": {
+      "type": "json"
+    }
+  }
+}
